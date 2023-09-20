@@ -1,11 +1,10 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MOON</title>
+    <title>CHILL N' CHOW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="telephone=no" name="format-detection">
     <meta name="HandheldFriendly" content="true">
@@ -29,7 +28,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="">
     <meta name="theme-color" content="#ffffff">
-    <!-- <link rel="icon" type="image/x-icon" href="img/fav.ico"> -->
+    
   </head>
   <body>
     <div>
@@ -51,17 +50,16 @@
         -->
       <!-- - PAGE PRELOADER -->
       <!-- PAGE HEADER -->
-      <header class="header header_fixed js-sticky-header header_color-white" data-header-animation="" data-header-sticky-theme="bg-black">
-        <div class="container-fluid header__controls">
+      <header class="header header_fixed js-sticky-header" data-header-animation="" data-header-sticky-theme="bg-white">
+       <div class="container-fluid header__controls">
           <div class="row justify-content-between align-items-center">
-            <div class="col text-left header__col-left"><a class="logo" href="index.html">
-                <div class="logo__text"><span class="logo__text-title"><img src="./img/logo/logo2.png" style="width:50px;"></span></div></a>
+            <div class="col text-left header__col-left"><a class="logo" href="index.php">
+                <div class="logo__text"><span class="logo__text-title"><img src="img/logo/logo2.png" style="width:50px;"></span></div></a>
             </div>
             <div class="col-auto text-center">
               <div class="header__burger" id="js-burger">
                 <div class="header__burger-line"></div>
                 <div class="header__burger-line"></div>
-                  <div class="header__burger-line"></div>
               </div>
             </div>
             <div class="col d-none d-md-block text-right header__col-right">
@@ -69,40 +67,37 @@
                 <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
                 
                 <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                <li class="social__item"><a href="menu.html">Menu</a></li>
-                  
-                 
-                  
+                <li class="social__item"><a href="menu.php">Menu</a></li>
               </ul>
             </div>
           </div>
           <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
           <!-- - back button -->
         </div>
-        <div class="header__wrapper-overlay-menu container-fluid bg-black color-white">
+        <div class="header__wrapper-overlay-menu container-fluid bg-black">
           <div class="header__wrapper-menu">
             <ul class="menu-overlay js-menu-overlay">
-              <li><a href="index.html" data-letter="H">
+              <li><a href="index.php" data-letter="H">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Home</div></a>
               
               </li>
-                 <li><a href="about.html" data-letter="A" data-pjax-link="overlayMenu">
+                 <li><a href="about.php" data-letter="A" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">About Us</div></a>
               </li>
-              <li><a href="privatedinning.html" data-letter="P">
+              <li><a href="privatedinning.php" data-letter="E">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Executive Dining</div></a>
                 
               </li>
-              <li><a href="menu.html" data-letter="M">
+              <li><a href="menu.php" data-letter="M">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Menu</div></a>
                
               </li>
-              <li><a href="air.html" data-letter="A">
+              <li><a href="air.php" data-letter="R">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Chefs in Residence</div></a>
                 
               </li>
              
-              <li><a href="contacts.html" data-letter="C" data-pjax-link="overlayMenu">
+              <li><a href="contacts.php" data-letter="C" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Contacts</div></a>
               </li>
             </ul>
@@ -128,7 +123,7 @@
                   <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@moonresturant.com">support@moonresturant.com</a></p>
                 </div>
                 <div class="col-lg-4 text-right">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">000000<br>000000</p>
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">0000000<br>0000000</p>
                 </div>
               </div>
             </div>
@@ -188,138 +183,78 @@
         </div>
       </header>
       <!-- - PAGE HEADER -->
-      <div class="page-wrapper bg-dark color-white">
+      <div class="page-wrapper">
         <main class="page-wrapper__content">
           <!-- section MASTHEAD -->
-          <section class="section section-masthead section-fullheight text-left bg-dark color-white" data-os-animation="data-os-animation">
-            <div class="section-masthead__inner section-fullheight__inner section-masthead__inner_background section-masthead__inner_background-right container">
+          <section class="section section-masthead section_pt-large section_pb-small text-left bg-light" data-os-animation="data-os-animation">
+            <div class="section-masthead__inner container-fluid">
               <header class="row section-masthead__header justify-content-start">
-                <div class="col-lg-10">
-                  <div class="subheading split-text js-split-text section-masthead__subheading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Events &amp;</div>
-                  <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Executive Dining</h1>
+                <div class="col mw-960">
+                  <div class="subheading split-text js-split-text section-masthead__subheading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Chef In Residence</div>
+                  <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Ann Vera</h1>
+                  <h4 class="heading-light split-text js-split-text section-masthead__text" data-split-text-type="lines" data-split-text-set="lines">Well-bred, well-educated Ann Vera is an Enugu state born visual chef of distinction. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio molestias doloribus dicta eius. Officiis asperiores, a dolores eveniet natus eum odit minus voluptates, quisquam expedita quasi tenetur consectetur ipsam!</h4>
                   <div class="section__headline"></div>
-                </div>
-                <div class="section-masthead__wrapper-scroll-down">
-                  <div class="scroll-down js-scroll-down">
-                    <div class="scroll-down__circle-1"></div>
-                    <div class="scroll-down__line"></div>
-                    <div class="scroll-down__circle-2"></div>
-                  </div>
                 </div>
               </header>
-              <div class="section-masthead__curtain bg-black"></div>
-            </div>
-            <div class="section-masthead__background section-masthead__background_fullscreen" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project/executive.jpg"><img src="./img/assets/projects/executive.jpg" alt=""></div>
-            </div>
-          </section>
-            <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-10 section-content__header">
-                  <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                    <h4 class="heading-light">Our  private dining room is ideal for various personal celebrations 
-and corporate occasions. Whether you are hosting a networking event, a 
-business meeting, or a birthday event, a memorable experience awaits.
-                        
-                        <br><br>
-                        Capacity - 40 Guests
-                       
-                       
-                        
-</h4>
-                  </div>
-                  <div class="section__headline"></div>
-                </div>
-              </div>
             </div>
           </section>
           <!-- - section MASTHEAD -->
           <!-- section IMAGE #1 -->
-          <section class="section section-image section_h-900">
+          <section class="section section-image section_w-container-right section_h-800">
             <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project6/img-6-2.jpg"><img src="./img/assets/projects/exe3.jpg" alt=""></div>
+              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project1/img-1-2.jpg"><img src="./img/assets/projects/marshmallow.webp" alt=""></div>
             </div>
+            <div class="section-image__caption section-image__caption-vertical-left">Marshmallow</div>
           </section>
-            
-            <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-10 section-content__header">
-                  <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                    <h4 class="heading-light">OFFSITE CATERING<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorem officiis maxime et quam earum quia obcaecati fugit neque voluptates? Animi eveniet praesentium dicta ex? Nostrum maiores eius accusantium qui. <a href="contact.html">Contact us</a> 
-                        
-                      
-                       
-                       
-                        
-</h4>
-                  </div>
-                  <div class="section__headline"></div>
-                </div>
-              </div>
-            </div>
-          </section>
-            
-            
           <!-- - section IMAGE #1 -->
-          <!-- IMAGES #2 -->
-        
-          <!-- - IMAGES #2 -->
-          <!-- section IMAGE #3 -->
-          <section class="section section-image section_h-900">
+          <!-- section GRID #1 -->
+         <br><br><br>
+          <!-- - section GRID #1 -->
+          <!-- section IMAGE #2 -->
+          <section class="section section-image section_w-container-left section_h-800">
             <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src=""><img src="./img/assets/projects/exe2.jpg" alt=""></div>
+              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project1/img-1-1.jpg"><img src="./img/assets/projects/aot.jpg" alt=""></div>
             </div>
+            <div class="section-image__caption section-image__caption-vertical-right">Oat</div>
           </section>
-          <!-- - section IMAGE #3 -->
-          <!-- section CONTENT #1 -->
-          <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
+            <br><br><br>
+            <section class="section section-image section_w-container-right section_h-800">
+            <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
+              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project1/img-1-3.jpg"><img src="./img/assets/projects/shrimp.jpg" alt=""></div>
+            </div>
+            <div class="section-image__caption section-image__caption-vertical-left">shrimp</div>
+          </section>
+          <!-- - section IMAGE #2 -->
+          <!-- section GRID #2 -->
+      
+          <!-- - section GRID #2 -->
+          <!-- section VIDEO --> <section class="section section-content section_pt section_pb bg-light" data-os-animation="data-os-animation">
             <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-10 section-content__header">
+              <div class="row justify-content-between">
+                <div class="col-lg-5 section-content__header">
                   <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                    <h4 class="heading-light">
-                        EVENT MENU<br>
-Carefully created to cater to all tastes, our bespoke multi-course menus are 
-sure to impress.
-                        <br>
-                        
-</h4><a href="menu.html"> View Sample Menu Options</a>
+                    <h5>"My career is pretty much my life and so my greatest aspiration is to have my cooking skill represented all over the world."</h5>
                   </div>
-                  <div class="section__headline"></div>
+                </div>
+                <div class="col-lg-5 section-content__content">
+                  <div class="split-text js-split-text" data-split-text-type="words, lines" data-split-text-set="lines">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea tenetur, impedit beatae architecto culpa odit officia amet sint reprehenderit quae tempora at ut, optio exercitationem natus praesentium distinctio recusandae veritatis.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
+       
+          <!-- - section VIDEO -->
+          <!-- section CONTENT #1 -->
+         
           <!-- - section CONTENT #1 -->
-          <!-- section PROPERTIES -->
-          <section class="section section-properties section_pt-small section_pb-small text-center bg-dark-3 color-white">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 col-sm-12 section-properties__item">
-                  <div class="figure-info">
-                    <div class="figure-info__option">Oyo</div>
-                    <div class="figure-info__value"><b></b> 27, off Bishop Oluwole Street, <br> Ibadan<br><br>00000</div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-sm-12 section-properties__item">
-                  <div class="figure-info">
-                    <div class="figure-info__option">GRA Enugu</div>
-                    <div class="figure-info__value"><b></b>35, Ogunnaike Street,<br> GRA Enugu, Enugu.<br><br>00000</div>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </section>
-          <!-- - section PROPERTIES -->
           <!-- section NAV PROJECTS -->
           
           <!-- - section NAV PROJECTS -->
         </main>
       </div>
-      <div class="transition-curtain bg-dark-2"></div>
+      <div class="transition-curtain bg-white"></div>
       <canvas id="js-webgl"></canvas>
     </div>
     <!-- VENDOR SCRIPTS -->
@@ -333,5 +268,5 @@ sure to impress.
     <!-- - PAGE SCRIPTS-->
   </body>
 
-<!-- Mirrored from artemsemkin.com/cassio/html/project-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Mar 2022 23:53:35 GMT -->
+
 </html>

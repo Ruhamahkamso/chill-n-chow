@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MOON </title>
+    <title>CHILL N' CHOW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="telephone=no" name="format-detection">
     <meta name="HandheldFriendly" content="true">
@@ -54,13 +54,14 @@
       <header class="header header_fixed js-sticky-header header_color-white" data-header-animation="" data-header-sticky-theme="bg-black">
         <div class="container-fluid header__controls">
           <div class="row justify-content-between align-items-center">
-            <div class="col text-left header__col-left"><a class="logo" href="index.html">
-                <div class="logo__text"><span class="logo__text-title"><img src="../img/logo/logo2.png" style="width:50px;"></span></div></a>
+            <div class="col text-left header__col-left"><a class="logo" href="index.php">
+                <div class="logo__text"><span class="logo__text-title"><img src="./img/logo/logo2.png" style="width:50px;"></span></div></a>
             </div>
             <div class="col-auto text-center">
               <div class="header__burger" id="js-burger">
                 <div class="header__burger-line"></div>
                 <div class="header__burger-line"></div>
+                  <div class="header__burger-line"></div>
               </div>
             </div>
             <div class="col d-none d-md-block text-right header__col-right">
@@ -68,7 +69,10 @@
                 <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
                 
                 <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                <li class="social__item"><a href="menu.html">Menu</a></li>
+                <li class="social__item"><a href="menu.php">Menu</a></li>
+                  
+                 
+                  
               </ul>
             </div>
           </div>
@@ -78,27 +82,27 @@
         <div class="header__wrapper-overlay-menu container-fluid bg-black color-white">
           <div class="header__wrapper-menu">
             <ul class="menu-overlay js-menu-overlay">
-              <li><a href="index.html" data-letter="H">
+              <li><a href="index.php" data-letter="H">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Home</div></a>
               
               </li>
-                 <li><a href=" about.html" data-letter="A" data-pjax-link="overlayMenu">
+                 <li><a href="about.php" data-letter="A" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">About Us</div></a>
               </li>
-              <li><a href=" privatedinning.html" data-letter="P">
+              <li><a href="privatedinning.html" data-letter="E">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Executive Dining</div></a>
                 
               </li>
-              <li><a href=" menu.html" data-letter="M">
+              <li><a href="menu.php" data-letter="M">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Menu</div></a>
                
               </li>
-              <li><a href="air.html" data-letter="A">
+              <li><a href="air.php" data-letter="R">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Chefs in Residence</div></a>
                 
               </li>
              
-              <li><a href="contacts.html" data-letter="C" data-pjax-link="overlayMenu">
+              <li><a href="contacts.php" data-letter="C" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Contacts</div></a>
               </li>
             </ul>
@@ -116,12 +120,12 @@
                   </ul>
                 </div>
                 <div class="col-lg-4 text-left">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu.  
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu. 
     <br>
     VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@artemsemkin.com">support@chillNchow.com</a></p>
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@moonresturant.com">support@moonresturant.com</a></p>
                 </div>
                 <div class="col-lg-4 text-right">
                   <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">000000<br>000000</p>
@@ -191,8 +195,8 @@
             <div class="section-masthead__inner section-fullheight__inner section-masthead__inner_background section-masthead__inner_background-right container">
               <header class="row section-masthead__header justify-content-start">
                 <div class="col-lg-10">
-                  <div class="subheading split-text js-split-text section-masthead__subheading" data-split-text-type="lines, words, chars" data-split-text-set="chars"> </div>
-                  <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading" data-split-text-type="lines, words, chars" data-split-text-set="chars">About Us</h1>
+                  <div class="subheading split-text js-split-text section-masthead__subheading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Events &amp;</div>
+                  <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Executive Dining</h1>
                   <div class="section__headline"></div>
                 </div>
                 <div class="section-masthead__wrapper-scroll-down">
@@ -206,35 +210,51 @@
               <div class="section-masthead__curtain bg-black"></div>
             </div>
             <div class="section-masthead__background section-masthead__background_fullscreen" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src="img/assets/projects/vege.jpg"></div>
+              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project/executive.jpg"><img src="./img/assets/projects/executive.jpg" alt=""></div>
             </div>
           </section>
-          <!-- - section MASTHEAD -->
-          <!-- section IMAGE #1 -->
-          
-          <!-- - IMAGES #2 -->
-          <!-- section IMAGE #3 -->
-          
-          <!-- - section IMAGE #3 -->
-          <!-- section CONTENT #1 -->
-          <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
+            <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-10 section-content__header">
                   <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                    <h4 class="heading-light">In Moon Restaurant and Bar We go beyond being just a restaurant… It is a social movement with a mission to preserve and highlight the best of Nigerian cultures through an experiential dining experience.
+                    <h4 class="heading-light">Our  private dining room is ideal for various personal celebrations 
+and corporate occasions. Whether you are hosting a networking event, a 
+business meeting, or a birthday event, a memorable experience awaits.
                         
-                        <br>
                         <br><br>
-                        <hr>
-                        <br><br>
-                        
-
+                        Capacity - 40 Guests
+                       
+                       
                         
 </h4>
                   </div>
-                    
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, eius modi hic vitae aspernatur impedit ab aperiam ad cupiditate qui? Explicabo atque nostrum eos tempore voluptatum officiis fuga tempora voluptates?
+                  <div class="section__headline"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section MASTHEAD -->
+          <!-- section IMAGE #1 -->
+          <section class="section section-image section_h-900">
+            <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
+              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project6/img-6-2.jpg"><img src="./img/assets/projects/exe3.jpg" alt=""></div>
+            </div>
+          </section>
+            
+            <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 section-content__header">
+                  <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                    <h4 class="heading-light">OFFSITE CATERING<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorem officiis maxime et quam earum quia obcaecati fugit neque voluptates? Animi eveniet praesentium dicta ex? Nostrum maiores eius accusantium qui. <a href="contact.html">Contact us</a> 
+                        
+                      
+                       
+                       
+                        
+</h4>
+                  </div>
                   <div class="section__headline"></div>
                 </div>
               </div>
@@ -242,56 +262,54 @@
           </section>
             
             
-             <section class="section section-content section-cta section-image section_pt section_pb section_z-100 bg-dark-2 color-white text-center">
-              <div class="section-cta__line"></div>
-              <div class="section__content">
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                      <header class="section-cta__header">
-                        <h4 class="section-cta__heading">"We set the bar for contemporary Nigerian
-food available anywhere inthe world."</h4>
+          <!-- - section IMAGE #1 -->
+          <!-- IMAGES #2 -->
+        
+          <!-- - IMAGES #2 -->
+          <!-- section IMAGE #3 -->
+          <section class="section section-image section_h-900">
+            <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
+              <div class="art-parallax__bg lazy-bg" data-src=""><img src="./img/assets/projects/exe2.jpg" alt=""></div>
+            </div>
+          </section>
+          <!-- - section IMAGE #3 -->
+          <!-- section CONTENT #1 -->
+          <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 section-content__header">
+                  <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                    <h4 class="heading-light">
+                        EVENT MENU<br>
+Carefully created to cater to all tastes, our bespoke multi-course menus are 
+sure to impress.
+                        <br>
                         
-                      </header>
-                      
-                    </div>
+</h4><a href="menu.html"> View Sample Menu Options</a>
                   </div>
+                  <div class="section__headline"></div>
                 </div>
               </div>
-              <div class="section-image__wrapper section-image__wrapper_absolute" data-art-parallax="background" data-art-parallax-factor="0.1">
-                <div class="art-parallax__bg lazy-bg" data-src="./img/assets/cooking.jpg"><img src="./img/assets/projects/cooking.jpg" alt=""></div>
-                <div class="section-image__overlay overlay overlay_dark"></div>
-              </div>
-            </section>
+            </div>
+          </section>
           <!-- - section CONTENT #1 -->
           <!-- section PROPERTIES -->
           <section class="section section-properties section_pt-small section_pb-small text-center bg-dark-3 color-white">
             <div class="container">
               <div class="row">
-                <div class="col-lg-3 col-sm-6 section-properties__item">
+                <div class="col-lg-6 col-sm-12 section-properties__item">
                   <div class="figure-info">
-                    <div class="figure-info__option">Location One</div>
-                    <div class="figure-info__value"><b>Enugu</b> RA - 35,  Ogunnaike Street, GRA Enugu, Enugu. </div>
+                    <div class="figure-info__option">Oyo</div>
+                    <div class="figure-info__value"><b></b> 27, off Bishop Oluwole Street, <br> Ibadan<br><br>00000</div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 section-properties__item">
+                <div class="col-lg-6 col-sm-12 section-properties__item">
                   <div class="figure-info">
-                    <div class="figure-info__option">Location Two</div>
-                    <div class="figure-info__value"><b>Ibadan </b>                     VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</div>
+                    <div class="figure-info__option">GRA Enugu</div>
+                    <div class="figure-info__value"><b></b>35, Ogunnaike Street,<br> GRA Enugu, Enugu.<br><br>00000</div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 section-properties__item">
-                  <div class="figure-info">
-                    <div class="figure-info__option">General Enquiries</div>
-                    <div class="figure-info__value">00000<br>00000</div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 section-properties__item">
-                  <div class="figure-info">
-                    <div class="figure-info__option">Open</div>
-                    <div class="figure-info__value">9AM - 10PM</div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </section>

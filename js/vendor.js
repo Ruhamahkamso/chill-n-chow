@@ -273,6 +273,79 @@ L(c,'"'+c.family+'",sans-serif'));A(p,function(a){g=a;v()});u(p,L(c,'"'+c.family
 	}
 })(jQuery);
 
+
+// Get all remove buttons
+const removeButtons = document.querySelectorAll('.remove-button');
+
+// Add a click event listener to each remove button
+removeButtons.forEach(button => {
+	button.addEventListener('click', function () {
+		// Get the parent cart item using the data-item-id attribute
+		const cartItem = this.closest('.cart-item');
+
+		// Remove the cart item from the DOM
+		if (cartItem) {
+			cartItem.remove();
+		}
+
+		// You can also update the total here if needed
+	});
+});
+
+// Select all "Add to Cart" links
+const addToCartLinks = document.querySelectorAll('.add-to-cart-link');
+
+// Cart container where items will be displayed
+const cartContainer = document.querySelector('.cart-container');
+
+// Initialize an empty cart array to store items
+const cart = [];
+
+// Function to add an item to the cart
+function addToCart(item, price) {
+	cart.push({ item, price });
+	updateCart();
+}
+
+// Function to update the cart display
+function updateCart() {
+	// Clear the cart container
+	cartContainer.innerHTML = '';
+
+	// Display each item in the cart
+	cart.forEach(({ item, price }) => {
+		const cartItem = document.createElement('div');
+		cartItem.classList.add('cart-item');
+		cartItem.innerHTML = `
+			<h2>${item} - <span style="color: #cccccc;">${price}</span></h2>
+			<button class="remove-button">Remove</button>
+		`;
+
+		cartContainer.appendChild(cartItem);
+	});
+}
+
+// Add click event listeners to the "Add to Cart" links
+addToCartLinks.forEach(link => {
+	link.addEventListener('click', function (e) {
+		e.preventDefault(); // Prevent the default link behavior
+
+		const item = this.getAttribute('data-item');
+		const price = parseInt(this.getAttribute('data-price'));
+
+		addToCart(item, price);
+	});
+});
+
+
+
+
+
+
+
+
+
+
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */

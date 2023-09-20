@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MOON</title>
+    <title>CHILL N' CHOW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="telephone=no" name="format-detection">
     <meta name="HandheldFriendly" content="true">
@@ -29,7 +29,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="">
     <meta name="theme-color" content="#ffffff">
-
+    <!-- <link rel="icon" type="image/x-icon" href="img/fav.ico"> -->
   </head>
   <body>
     <div>
@@ -54,8 +54,8 @@
       <header class="header header_fixed js-sticky-header header_color-white" data-header-animation="" data-header-sticky-theme="bg-black">
         <div class="container-fluid header__controls">
           <div class="row justify-content-between align-items-center">
-            <div class="col text-left header__col-left"><a class="logo" href="index.html">
-                <div class="logo__text"><span class="logo__text-title"><img src="./img/logo/logo2.png"style=width:50px;></span></div></a>
+            <div class="col text-left header__col-left"><a class="logo" href="index.php">
+                <div class="logo__text"><span class="logo__text-title"><img src="./img/logo/logo2.png" style="width:50px;"></span></div></a>
             </div>
             <div class="col-auto text-center">
               <div class="header__burger" id="js-burger">
@@ -68,7 +68,7 @@
                 <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
                 
                 <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                <li class="social__item"><a href="menu.html">Menu</a></li>
+                <li class="social__item"><a href="menu.php">Menu</a></li>
               </ul>
             </div>
           </div>
@@ -78,27 +78,27 @@
         <div class="header__wrapper-overlay-menu container-fluid bg-black color-white">
           <div class="header__wrapper-menu">
             <ul class="menu-overlay js-menu-overlay">
-              <li><a href="index.html" data-letter="H">
+              <li><a href="index.php" data-letter="H">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Home</div></a>
               
               </li>
-                 <li><a href="about.html" data-letter="A" data-pjax-link="overlayMenu">
+                 <li><a href=" about.php" data-letter="A" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">About Us</div></a>
               </li>
-              <li><a href="privatedinning.html" data-letter="P">
+              <li><a href=" privatedinning.php" data-letter="E">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Executive Dining</div></a>
                 
               </li>
-              <li><a href="menu.html" data-letter="M">
+              <li><a href=" menu.php" data-letter="M">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Menu</div></a>
                
               </li>
-              <li><a href="air.html" data-letter="A">
+              <li><a href="air.php" data-letter="R">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Chefs in Residence</div></a>
                 
               </li>
              
-              <li><a href="contacts.html" data-letter="C" data-pjax-link="overlayMenu">
+              <li><a href="contacts.php" data-letter="C" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Contacts</div></a>
               </li>
             </ul>
@@ -116,17 +116,15 @@
                   </ul>
                 </div>
                 <div class="col-lg-4 text-left">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-    
-                    GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu. 
-                    <br>
-                    VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</p>
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu.  
+    <br>
+    VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@moonresturant.com">support@moonresturant.com</a></p>
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@artemsemkin.com">support@chillNchow.com</a></p>
                 </div>
                 <div class="col-lg-4 text-right">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">00000<br>00000</p>
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">000000<br>000000</p>
                 </div>
               </div>
             </div>
@@ -186,91 +184,124 @@
         </div>
       </header>
       <!-- - PAGE HEADER -->
-         
-        
       <div class="page-wrapper bg-dark color-white">
         <main class="page-wrapper__content">
           <!-- section MASTHEAD -->
-          <section class="section section-masthead section-masthead_big-heading section-fullheight text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
-            <div class="section-fullheight__inner">
-              <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading section-masthead__heading-big text-xxl" data-split-text-type="lines, words, chars" data-split-text-set="chars">Contact</h1>
+          <section class="section section-masthead section-fullheight text-left bg-dark color-white" data-os-animation="data-os-animation">
+            <div class="section-masthead__inner section-fullheight__inner section-masthead__inner_background section-masthead__inner_background-right container">
+              <header class="row section-masthead__header justify-content-start">
+                <div class="col-lg-10">
+                  <div class="subheading split-text js-split-text section-masthead__subheading" data-split-text-type="lines, words, chars" data-split-text-set="chars"> </div>
+                  <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading" data-split-text-type="lines, words, chars" data-split-text-set="chars">About Us</h1>
+                  <div class="section__headline"></div>
+                </div>
+                <div class="section-masthead__wrapper-scroll-down">
+                  <div class="scroll-down js-scroll-down">
+                    <div class="scroll-down__circle-1"></div>
+                    <div class="scroll-down__line"></div>
+                    <div class="scroll-down__circle-2"></div>
+                  </div>
+                </div>
+              </header>
+              <div class="section-masthead__curtain bg-black"></div>
+            </div>
+            <div class="section-masthead__background section-masthead__background_fullscreen" data-art-parallax="background" data-art-parallax-factor="0.1">
+              <div class="art-parallax__bg lazy-bg" data-src="img/assets/projects/vege.jpg"></div>
             </div>
           </section>
           <!-- - section MASTHEAD -->
-          <!-- section PORTFOLIO -->
-            <br><br><br>
-            <footer class="footer container-fluid">
-            
-          <div class="footer__area-primary">
-            <div class="footer__row row">
-                
-              <div class="col-lg-4 text-left footer__column"><hr>
-                <section class="widget widget_cassio_logo"><br><br>
-                    <h4>ADDRESS</h4>
-                      <p>
-    
-                    <b> VI</b> - 27, Oju-olobun close, off Bishop Oluwole Street, Victoria Island, Lagos
-                    <br><br>
-                    <b>IKEJA </b> - 35, Joel Ogunnaike Street, GRA Ikeja, Lagos. </p>
-               
-                </section>
-              </div>
-               <div class="col-lg-4 text-center footer__column">
-                <section class="widget widget_cassio_social"><hr><br><br>
-                  <ul class="social"><h4>CONTACT</h4>
-                      <p>00000000<br>000000000</p>
-                    <p><a href="mailto:support@moonresturant.com">support@moonresturant.com</a></p>
-                    <br><li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
-                   
-                    <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                    
-                  </ul>
-                </section>
-              </div>
-              <div class="col-lg-4 text-right footer__column">
-                <section class="widget widget_text"><hr><br><br>
-                  <div class="textwidget"><h4>HOURS</h4>
-                      <b>Dine-in and Carry-out</b> <br> 11am – 9 pm<br><br>
-<b>Takeaway (Delivery)</b><br> 11am – 6 pm (Outside Vi)<br> 10 am to 7:30 pm (Within 
-VI)<br><br>
-                      <b>Takeaway hours for Enugu</b><br> 10 am – 7 pm (Outside Enugu)<br> 10 am – 8 pm
-(Within Enugu)
-                    
-                  </div>
-                </section>
-                  
-              </div>
-            </div>
-          </div><hr>
-                <!-- <section class="section section-map bg-white section_mt-small section_h-800">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15859.036663541023!2d3.415256!3d6.424981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60447c616b82e92d!2sYellow%20Chilli!5e0!3m2!1sen!2str!4v1647258232078!5m2!1sen!2str" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </section> -->
-          <div class="footer__area-secondary">
-            <div class="footer__row row justify-content-between align-items-center">
-              <div class="col-lg-6 order-lg-2 footer__column text-right">
-                   
-                <section class="widget widget_cassio_menu_inline">
-                
-                </section>
-              </div>
-             <div class="col-lg-6 order-lg-1 footer__column text-left">
-                <section class="widget widget_cassio_copyright"><small class="copyright">© 2023 Ruhamahkamso.</small></section>
-              </div>
-            </div>
-          </div>
-        </footer>
+          <!-- section IMAGE #1 -->
           
+          <!-- - IMAGES #2 -->
+          <!-- section IMAGE #3 -->
+          
+          <!-- - section IMAGE #3 -->
+          <!-- section CONTENT #1 -->
+          <section class="section section-content section_pt section_pb text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 section-content__header">
+                  <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                    <h4 class="heading-light">In Moon Restaurant and Bar We go beyond being just a restaurant… It is a social movement with a mission to preserve and highlight the best of Nigerian cultures through an experiential dining experience.
+                        
+                        <br>
+                        <br><br>
+                        <hr>
+                        <br><br>
+                        
+
+                        
+</h4>
+                  </div>
+                    
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, eius modi hic vitae aspernatur impedit ab aperiam ad cupiditate qui? Explicabo atque nostrum eos tempore voluptatum officiis fuga tempora voluptates?
+                  <div class="section__headline"></div>
+                </div>
+              </div>
+            </div>
+          </section>
             
             
-          <!-- - section PORTFOLIO -->
-              
-              
-              
-              
+             <section class="section section-content section-cta section-image section_pt section_pb section_z-100 bg-dark-2 color-white text-center">
+              <div class="section-cta__line"></div>
+              <div class="section__content">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                      <header class="section-cta__header">
+                        <h4 class="section-cta__heading">"We set the bar for contemporary Nigerian
+food available anywhere inthe world."</h4>
+                        
+                      </header>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-image__wrapper section-image__wrapper_absolute" data-art-parallax="background" data-art-parallax-factor="0.1">
+                <div class="art-parallax__bg lazy-bg" data-src="./img/assets/cooking.jpg"><img src="./img/assets/projects/cooking.jpg" alt=""></div>
+                <div class="section-image__overlay overlay overlay_dark"></div>
+              </div>
+            </section>
+          <!-- - section CONTENT #1 -->
+          <!-- section PROPERTIES -->
+          <section class="section section-properties section_pt-small section_pb-small text-center bg-dark-3 color-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6 section-properties__item">
+                  <div class="figure-info">
+                    <div class="figure-info__option">Location One</div>
+                    <div class="figure-info__value"><b>Enugu</b> RA - 35,  Ogunnaike Street, GRA Enugu, Enugu. </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 section-properties__item">
+                  <div class="figure-info">
+                    <div class="figure-info__option">Location Two</div>
+                    <div class="figure-info__value"><b>Ibadan </b>                     VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 section-properties__item">
+                  <div class="figure-info">
+                    <div class="figure-info__option">General Enquiries</div>
+                    <div class="figure-info__value">00000<br>00000</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 section-properties__item">
+                  <div class="figure-info">
+                    <div class="figure-info__option">Open</div>
+                    <div class="figure-info__value">9AM - 10PM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section PROPERTIES -->
+          <!-- section NAV PROJECTS -->
+          
+          <!-- - section NAV PROJECTS -->
         </main>
-        
       </div>
-      <div class="transition-curtain bg-dark-3"></div>
+      <div class="transition-curtain bg-dark-2"></div>
       <canvas id="js-webgl"></canvas>
     </div>
     <!-- VENDOR SCRIPTS -->
@@ -284,5 +315,5 @@ VI)<br><br>
     <!-- - PAGE SCRIPTS-->
   </body>
 
-<!-- Mirrored from artemsemkin.com/cassio/html/projects-grid-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Mar 2022 23:53:35 GMT -->
+<!-- Mirrored from artemsemkin.com/cassio/html/project-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Mar 2022 23:53:35 GMT -->
 </html>

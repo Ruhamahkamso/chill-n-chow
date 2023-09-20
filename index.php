@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MOON</title>
+    <title>CHILL N' CHOW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="telephone=no" name="format-detection">
     <meta name="HandheldFriendly" content="true">
@@ -28,8 +29,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="">
     <meta name="theme-color" content="#ffffff">
-    
-  </head>
+    <!-- <link rel="icon" type="image/x-icon" href="img/fav.ico"> -->
+</head>
+
   <body>
     <div>
       <!-- PAGE PRELOADER
@@ -50,54 +52,58 @@
         -->
       <!-- - PAGE PRELOADER -->
       <!-- PAGE HEADER -->
-      <header class="header header_fixed js-sticky-header" data-header-animation="" data-header-sticky-theme="bg-white">
-       <div class="container-fluid header__controls">
+      <header class="header header_fixed js-sticky-header header_color-white" data-header-animation="" data-header-sticky-theme="bg-black">
+        <div class="container-fluid header__controls">
           <div class="row justify-content-between align-items-center">
-            <div class="col text-left header__col-left"><a class="logo" href="index.html">
-                <div class="logo__text"><span class="logo__text-title"><img src="img/logo/logo2.png" style="width:50px;"></span></div></a>
+            <div class="col text-left header__col-left"><a class="logo" href="index.php">
+                <div class="logo__text"><span class="logo__text-title"><img src="./img/logo/logo2.png" style="width:50px" ></span></div></a>
             </div>
             <div class="col-auto text-center">
               <div class="header__burger" id="js-burger">
                 <div class="header__burger-line"></div>
                 <div class="header__burger-line"></div>
+                  
+                  
               </div>
             </div>
             <div class="col d-none d-md-block text-right header__col-right">
               <ul class="social">
-                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+               
                 
-                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                <li class="social__item"><a href="menu.html">Menu</a></li>
+                <li class="social__item"><a href="menu.php">Menu</a></li>
               </ul>
             </div>
-          </div>
+              
+              
+              
+              
           <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
           <!-- - back button -->
         </div>
-        <div class="header__wrapper-overlay-menu container-fluid bg-black">
+        <div class="header__wrapper-overlay-menu container-fluid bg-black color-white">
           <div class="header__wrapper-menu">
             <ul class="menu-overlay js-menu-overlay">
-              <li><a href="index.html" data-letter="H">
+              <li><a href="index.php" data-letter="H">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Home</div></a>
               
               </li>
-                 <li><a href="about.html" data-letter="A" data-pjax-link="overlayMenu">
+                 <li><a href="about.php" data-letter="A" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">About Us</div></a>
               </li>
-              <li><a href="privatedinning.html" data-letter="P">
+              <li><a href="privatedinning.php" data-letter="E">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Executive Dining</div></a>
                 
               </li>
-              <li><a href="menu.html" data-letter="M">
+              <li><a href="menu.php" data-letter="M">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Menu</div></a>
                
               </li>
-              <li><a href="air.html" data-letter="A">
+              <li><a href="air.php" data-letter="R">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Chefs in Residence</div></a>
                 
               </li>
              
-              <li><a href="contacts.html" data-letter="C" data-pjax-link="overlayMenu">
+              <li><a href="contacts.php" data-letter="C" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Contacts</div></a>
               </li>
             </ul>
@@ -114,16 +120,16 @@
                    
                   </ul>
                 </div>
-                <div class="col-lg-4 text-left">
+                <div class="col-lg-4 text-center">
                   <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu. 
     <br>
-    VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</p>
+                    VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@moonresturant.com">support@moonresturant.com</a></p>
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@chiil n' chow resturant.com">support@chilln'chowresturant.com</a></p>
                 </div>
-                <div class="col-lg-4 text-right">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">0000000<br>0000000</p>
+                <div class="col-lg-4 text-center">
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">091511423993<br>08139560435</p>
                 </div>
               </div>
             </div>
@@ -178,91 +184,129 @@
               </svg>
             </div>
           </div>
+            </div>
           <!-- - letters -->
           <div class="header__curtain bg-ornament"></div>
         </div>
       </header>
+          
+         
       <!-- - PAGE HEADER -->
-      <div class="page-wrapper">
+      <div class="page-wrapper bg-black">
         <main class="page-wrapper__content">
-          <!-- section MASTHEAD -->
-          <section class="section section-masthead section_pt-large section_pb-small text-left bg-light" data-os-animation="data-os-animation">
-            <div class="section-masthead__inner container-fluid">
-              <header class="row section-masthead__header justify-content-start">
-                <div class="col mw-960">
-                  <div class="subheading split-text js-split-text section-masthead__subheading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Chef In Residence</div>
-                  <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading" data-split-text-type="lines, words, chars" data-split-text-set="chars">Ann Vera</h1>
-                  <h4 class="heading-light split-text js-split-text section-masthead__text" data-split-text-type="lines" data-split-text-set="lines">Well-bred, well-educated Ann Vera is an Enugu state born visual chef of distinction. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio molestias doloribus dicta eius. Officiis asperiores, a dolores eveniet natus eum odit minus voluptates, quisquam expedita quasi tenetur consectetur ipsam!</h4>
-                  <div class="section__headline"></div>
-                </div>
-              </header>
-            </div>
-          </section>
-          <!-- - section MASTHEAD -->
-          <!-- section IMAGE #1 -->
-          <section class="section section-image section_w-container-right section_h-800">
-            <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project1/img-1-2.jpg"><img src="./img/assets/projects/marshmallow.webp" alt=""></div>
-            </div>
-            <div class="section-image__caption section-image__caption-vertical-left">Marshmallow</div>
-          </section>
-          <!-- - section IMAGE #1 -->
-          <!-- section GRID #1 -->
-         <br><br><br>
-          <!-- - section GRID #1 -->
-          <!-- section IMAGE #2 -->
-          <section class="section section-image section_w-container-left section_h-800">
-            <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project1/img-1-1.jpg"><img src="./img/assets/projects/aot.jpg" alt=""></div>
-            </div>
-            <div class="section-image__caption section-image__caption-vertical-right">Oat</div>
-          </section>
-            <br><br><br>
-            <section class="section section-image section_w-container-right section_h-800">
-            <div class="section-image__wrapper" data-art-parallax="background" data-art-parallax-factor="0.1">
-              <div class="art-parallax__bg lazy-bg" data-src="img/assets/project1/img-1-3.jpg"><img src="./img/assets/projects/shrimp.jpg" alt=""></div>
-            </div>
-            <div class="section-image__caption section-image__caption-vertical-left">shrimp</div>
-          </section>
-          <!-- - section IMAGE #2 -->
-          <!-- section GRID #2 -->
-      
-          <!-- - section GRID #2 -->
-          <!-- section VIDEO --> <section class="section section-content section_pt section_pb bg-light" data-os-animation="data-os-animation">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-5 section-content__header">
-                  <div class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                    <h5>"My career is pretty much my life and so my greatest aspiration is to have my cooking skill represented all over the world."</h5>
+          <!-- section FULLSCREEN SLIDER -->
+          <section class="section section-fullscreen-slider section-fullheight bg-black" data-os-animation="data-os-animation">
+            <div class="section-fullheight__inner section-fullscreen-slider__inner">
+              <div class="slider slider-fullscreen js-slider-fullscreen">
+                <div class="container-fluid swiper-container slider-fullscreen__content js-slider-fullscreen__content text-center">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide slider-fullscreen__content-slide">
+                      <div class="slider-fullscreen__content-inner">
+                        <header class="slider-fullscreen__header"><a class="slider__link" href="" data-pjax-link="flyingHeading">
+                            <h2 class="slider__heading split-text js-text-to-fly js-split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">EXPERIENCE THE BEST OF AFRICAN FOOD AND STYLE </h2></a></header>
+                        <div class="slider-fullscreen__wrapper-button slider__wrapper-button"><a class="link-arrow" href="./pages/about.html" data-pjax-link="flyingHeading">
+                            <div class="link-arrow__label"><font size="3"><a href="login.php">Chill with us</a></font></div>
+                            <div class="link-arrow__icon material-icons"></div></a></div>
+                          <br>
+                          <ul class="social">
+                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                
+                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+              
+              </ul>
+                      </div>
+                    </div>
+                   
+                    <div class="swiper-slide slider-fullscreen__content-slide">
+                      <div class="slider-fullscreen__content-inner">
+                        <header class="slider-fullscreen__header"><a class="slider__link" href="" data-pjax-link="flyingHeading">
+                            <h2 class="slider__heading split-text js-text-to-fly js-split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">EXPERIENCE THE BEST OF AFRICAN  CULTURE </h2></a></header>
+                        <div class="slider-fullscreen__wrapper-button slider__wrapper-button"><a class="link-arrow" href="./pages/about.html" data-pjax-link="flyingHeading">
+                            <div class="link-arrow__label"><font size="3"> <a href="login.php">Chow with Us</a></font></div>
+                            <div class="link-arrow__icon material-icons"></div></a></div> <br>
+                          <ul class="social">
+                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                
+                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+              
+              </ul>
+                      </div>
+                    </div>
+                      
+                      
                   </div>
                 </div>
-                <div class="col-lg-5 section-content__content">
-                  <div class="split-text js-split-text" data-split-text-type="words, lines" data-split-text-set="lines">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea tenetur, impedit beatae architecto culpa odit officia amet sint reprehenderit quae tempora at ut, optio exercitationem natus praesentium distinctio recusandae veritatis.</p>
+                <!-- - slider content -->
+                  
+                  
+                  
+                  
+                  
+                <div class="swiper-container slider-fullscreen__images js-slider-fullscreen__images" data-overlap-factor="0.13">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide slider__images-slide">
+                      <div class="slider__images-slide-inner">
+                        <div class="slider__bg swiper-lazy" data-background="./img/assets/projects/table.jpg"></div>
+                      </div>
+                    </div>
+                    
+                    <div class="swiper-slide slider__images-slide">
+                      <div class="slider__images-slide-inner">
+                        <div class="slider__bg swiper-lazy" data-background="./img/assets/projects/eros.jpg"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider__overlay overlay overlay_indi"></div>
+                  <!-- - slider overlay -->
+                </div>
+                <!-- - slider images -->
+                  
+                                     
+                  
+                  
+                  
+                <div class="slider-fullscreen__footer">
+                  <div class="slider-fullscreen__footer-divider"></div>
+                  <div class="container-fluid slider-fullscreen__footer-inner">
+                    <div class="row justify-content-between h-100">
+                      <div class="col-auto">
+                        <div class="slider__progress slider-fullscreen__progress">
+                          <div class="swiper-container slider__counter slider__counter_current js-slider-fullscreen__counter-current">
+                            <div class="swiper-wrapper"></div>
+                          </div>
+                          <div class="slider__counter-divider slider-fullscreen__counter-divider"></div>
+                          <div class="slider__counter slider__counter_total js-slider-fullscreen__counter-total">001</div>
+                        </div>
+                      </div>
+                      <!-- - slider counter -->
+                      <div class="col-auto">
+                        <div class="slider__arrows slider-fullscreen__arrows">
+                          <div class="slider__arrow slider-fullscreen__arrow_prev js-slider-fullscreen__prev"><i class="material-icons">keyboard_arrow_up</i></div>
+                          <div class="slider__arrow slider-fullscreen__arrow_next js-slider-fullscreen__next"><i class="material-icons">keyboard_arrow_down</i></div>
+                        </div>
+                      </div>
+                      <!-- - slider nav arrows -->
+                    </div>
                   </div>
                 </div>
+                <!-- - slider footer (controls) -->
               </div>
             </div>
           </section>
-       
-          <!-- - section VIDEO -->
-          <!-- section CONTENT #1 -->
-         
-          <!-- - section CONTENT #1 -->
-          <!-- section NAV PROJECTS -->
-          
-          <!-- - section NAV PROJECTS -->
+          <!-- - section FULLSCREEN SLIDER -->
         </main>
       </div>
-      <div class="transition-curtain bg-white"></div>
+      <div class="transition-curtain bg-black"></div>
       <canvas id="js-webgl"></canvas>
     </div>
     <!-- VENDOR SCRIPTS -->
     <script src="js/vendor.js"></script>
     <!-- - VENDOR SCRIPTS -->
+
     <!-- COMPONENTS -->
     <script src="js/components.js"></script>
     <!-- - COMPONENTS -->
+    
     <script src="maps/api/js?key=AIzaSyDNq0ueciTt6V_9F8Uhce_15ReMqETLWtU" async=""></script>
     <!-- PAGE SCRIPTS-->
     <!-- - PAGE SCRIPTS-->

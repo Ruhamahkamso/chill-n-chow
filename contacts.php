@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MOON</title>
+    <title>CHILL N' CHOW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="telephone=no" name="format-detection">
     <meta name="HandheldFriendly" content="true">
@@ -29,7 +29,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="">
     <meta name="theme-color" content="#ffffff">
-    <!-- <link rel="icon" type="image/x-icon" href="img/fav.ico"> -->
+
   </head>
   <body>
     <div>
@@ -54,28 +54,24 @@
       <header class="header header_fixed js-sticky-header header_color-white" data-header-animation="" data-header-sticky-theme="bg-black">
         <div class="container-fluid header__controls">
           <div class="row justify-content-between align-items-center">
-            <div class="col text-left header__col-left"><a class="logo" href="index.html">
-                <div class="logo__text"><span class="logo__text-title"><img src="../img/logo/logo2.png" style="width:50px" ></span></div></a>
+            <div class="col text-left header__col-left"><a class="logo" href="index.php">
+                <div class="logo__text"><span class="logo__text-title"><img src="./img/logo/logo2.png"style=width:50px;></span></div></a>
             </div>
             <div class="col-auto text-center">
               <div class="header__burger" id="js-burger">
                 <div class="header__burger-line"></div>
                 <div class="header__burger-line"></div>
-                  
-                  
               </div>
             </div>
             <div class="col d-none d-md-block text-right header__col-right">
               <ul class="social">
-               
+                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
                 
-                <li class="social__item"><a href="menu.html">Menu</a></li>
+                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                <li class="social__item"><a href="menu.php">Menu</a></li>
               </ul>
             </div>
-              
-              
-              
-              
+          </div>
           <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
           <!-- - back button -->
         </div>
@@ -86,23 +82,23 @@
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Home</div></a>
               
               </li>
-                 <li><a href="about.html" data-letter="A" data-pjax-link="overlayMenu">
+                 <li><a href="about.php" data-letter="A" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">About Us</div></a>
               </li>
-              <li><a href="privatedinning.html" data-letter="P">
+              <li><a href="privatedinning.php" data-letter="E">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Executive Dining</div></a>
                 
               </li>
-              <li><a href="menu.html" data-letter="M">
+              <li><a href="menu.php" data-letter="M">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Menu</div></a>
                
               </li>
-              <li><a href="air.html" data-letter="A">
+              <li><a href="air.php" data-letter="R">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Chefs in Residence</div></a>
                 
               </li>
              
-              <li><a href="contacts.html" data-letter="C" data-pjax-link="overlayMenu">
+              <li><a href="contacts.php" data-letter="C" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper js-text-to-fly split-text js-split-text" data-split-text-type="lines, words, chars">Contacts</div></a>
               </li>
             </ul>
@@ -119,16 +115,18 @@
                    
                   </ul>
                 </div>
-                <div class="col-lg-4 text-center">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu. 
-    <br>
+                <div class="col-lg-4 text-left">
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+    
+                    GRA - 35,  Ogunnaike Street, GRA Enugu, Enugu. 
+                    <br>
                     VI - 30, off Bishop Olarenwaju Street, Oyo, Ibadan</p>
                 </div>
                 <div class="col-lg-4 text-center">
                   <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="mailto:support@moonresturant.com">support@moonresturant.com</a></p>
                 </div>
-                <div class="col-lg-4 text-center">
-                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">091511423993<br>08139560435</p>
+                <div class="col-lg-4 text-right">
+                  <p class="split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">00000<br>00000</p>
                 </div>
               </div>
             </div>
@@ -183,120 +181,96 @@
               </svg>
             </div>
           </div>
-            </div>
           <!-- - letters -->
           <div class="header__curtain bg-ornament"></div>
         </div>
       </header>
-          
-         
       <!-- - PAGE HEADER -->
-      <div class="page-wrapper bg-black">
+         
+        
+      <div class="page-wrapper bg-dark color-white">
         <main class="page-wrapper__content">
-          <!-- section FULLSCREEN SLIDER -->
-          <section class="section section-fullscreen-slider section-fullheight bg-black" data-os-animation="data-os-animation">
-            <div class="section-fullheight__inner section-fullscreen-slider__inner">
-              <div class="slider slider-fullscreen js-slider-fullscreen">
-                <div class="container-fluid swiper-container slider-fullscreen__content js-slider-fullscreen__content text-center">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide slider-fullscreen__content-slide">
-                      <div class="slider-fullscreen__content-inner">
-                        <header class="slider-fullscreen__header"><a class="slider__link" href="" data-pjax-link="flyingHeading">
-                            <h2 class="slider__heading split-text js-text-to-fly js-split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">EXPERIENCE THE BEST OF AFRICAN FOOD AND STYLE </h2></a></header>
-                        <div class="slider-fullscreen__wrapper-button slider__wrapper-button"><a class="link-arrow" href="./pages/about.html" data-pjax-link="flyingHeading">
-                            <div class="link-arrow__label"><font size="3">Chill with Us</font></div>
-                            <div class="link-arrow__icon material-icons"></div></a></div>
-                          <br>
-                          <ul class="social">
-                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
-                
-                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-              
-              </ul>
-                      </div>
-                    </div>
-                   
-                    <div class="swiper-slide slider-fullscreen__content-slide">
-                      <div class="slider-fullscreen__content-inner">
-                        <header class="slider-fullscreen__header"><a class="slider__link" href="" data-pjax-link="flyingHeading">
-                            <h2 class="slider__heading split-text js-text-to-fly js-split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">EXPERIENCE THE BEST OF AFRICAN  CULTURE </h2></a></header>
-                        <div class="slider-fullscreen__wrapper-button slider__wrapper-button"><a class="link-arrow" href="./pages/about.html" data-pjax-link="flyingHeading">
-                            <div class="link-arrow__label"><font size="3">Chow with Us</font></div>
-                            <div class="link-arrow__icon material-icons"></div></a></div> <br>
-                          <ul class="social">
-                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
-                
-                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-              
-              </ul>
-                      </div>
-                    </div>
-                      
-                      
-                  </div>
-                </div>
-                <!-- - slider content -->
-                  
-                  
-                  
-                  
-                  
-                <div class="swiper-container slider-fullscreen__images js-slider-fullscreen__images" data-overlap-factor="0.13">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__images-slide">
-                      <div class="slider__images-slide-inner">
-                        <div class="slider__bg swiper-lazy" data-background="../img/assets/projects/table.jpg"></div>
-                      </div>
-                    </div>
-                    
-                    <div class="swiper-slide slider__images-slide">
-                      <div class="slider__images-slide-inner">
-                        <div class="slider__bg swiper-lazy" data-background="../img/assets/projects/eros.jpg"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__overlay overlay overlay_indi"></div>
-                  <!-- - slider overlay -->
-                </div>
-                <!-- - slider images -->
-                  
-                   
-                  
-                  
-                  
-                  
-                <div class="slider-fullscreen__footer">
-                  <div class="slider-fullscreen__footer-divider"></div>
-                  <div class="container-fluid slider-fullscreen__footer-inner">
-                    <div class="row justify-content-between h-100">
-                      <div class="col-auto">
-                        <div class="slider__progress slider-fullscreen__progress">
-                          <div class="swiper-container slider__counter slider__counter_current js-slider-fullscreen__counter-current">
-                            <div class="swiper-wrapper"></div>
-                          </div>
-                          <div class="slider__counter-divider slider-fullscreen__counter-divider"></div>
-                          <div class="slider__counter slider__counter_total js-slider-fullscreen__counter-total">001</div>
-                        </div>
-                      </div>
-                      <!-- - slider counter -->
-                      <div class="col-auto">
-                        <div class="slider__arrows slider-fullscreen__arrows">
-                          <div class="slider__arrow slider-fullscreen__arrow_prev js-slider-fullscreen__prev"><i class="material-icons">keyboard_arrow_up</i></div>
-                          <div class="slider__arrow slider-fullscreen__arrow_next js-slider-fullscreen__next"><i class="material-icons">keyboard_arrow_down</i></div>
-                        </div>
-                      </div>
-                      <!-- - slider nav arrows -->
-                    </div>
-                  </div>
-                </div>
-                <!-- - slider footer (controls) -->
-              </div>
+          <!-- section MASTHEAD -->
+          <section class="section section-masthead section-masthead_big-heading section-fullheight text-center bg-dark-2 color-white" data-os-animation="data-os-animation">
+            <div class="section-fullheight__inner">
+              <h1 class="js-text-to-fly split-text js-split-text section-masthead__heading section-masthead__heading-big text-xxl" data-split-text-type="lines, words, chars" data-split-text-set="chars">Contact</h1>
             </div>
           </section>
-          <!-- - section FULLSCREEN SLIDER -->
+          <!-- - section MASTHEAD -->
+          <!-- section PORTFOLIO -->
+            <br><br><br>
+            <footer class="footer container-fluid">
+            
+          <div class="footer__area-primary">
+            <div class="footer__row row">
+                
+              <div class="col-lg-4 text-left footer__column"><hr>
+                <section class="widget widget_cassio_logo"><br><br>
+                    <h4>ADDRESS</h4>
+                      <p>
+    
+                    <b> VI</b> - 27, Oju-olobun close, off Bishop Oluwole Street, Victoria Island, Lagos
+                    <br><br>
+                    <b>IKEJA </b> - 35, Joel Ogunnaike Street, GRA Ikeja, Lagos. </p>
+               
+                </section>
+              </div>
+               <div class="col-lg-4 text-center footer__column">
+                <section class="widget widget_cassio_social"><hr><br><br>
+                  <ul class="social"><h4>CONTACT</h4>
+                      <p>00000000<br>000000000</p>
+                    <p><a href="mailto:support@moonresturant.com">support@chill n'chowresturant.com</a></p>
+                    <br><li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                   
+                    <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                    
+                  </ul>
+                </section>
+              </div>
+              <div class="col-lg-4 text-right footer__column">
+                <section class="widget widget_text"><hr><br><br>
+                  <div class="textwidget"><h4>HOURS</h4>
+                      <b>Dine-in and Carry-out</b> <br> 11am – 9 pm<br><br>
+<b>Takeaway (Delivery)</b><br> 11am – 6 pm (Outside Vi)<br> 10 am to 7:30 pm (Within 
+VI)<br><br>
+                      <b>Takeaway hours for Enugu</b><br> 10 am – 7 pm (Outside Enugu)<br> 10 am – 8 pm
+(Within Enugu)
+                    
+                  </div>
+                </section>
+                  
+              </div>
+            </div>
+          </div><hr>
+                <!-- <section class="section section-map bg-white section_mt-small section_h-800">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15859.036663541023!2d3.415256!3d6.424981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60447c616b82e92d!2sYellow%20Chilli!5e0!3m2!1sen!2str!4v1647258232078!5m2!1sen!2str" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section> -->
+          <div class="footer__area-secondary">
+            <div class="footer__row row justify-content-between align-items-center">
+              <div class="col-lg-6 order-lg-2 footer__column text-right">
+                   
+                <section class="widget widget_cassio_menu_inline">
+                
+                </section>
+              </div>
+             <div class="col-lg-6 order-lg-1 footer__column text-left">
+                <section class="widget widget_cassio_copyright"><small class="copyright">© 2023 Ruhamahkamso.</small></section>
+              </div>
+            </div>
+          </div>
+        </footer>
+          
+            
+            
+          <!-- - section PORTFOLIO -->
+              
+              
+              
+              
         </main>
+        
       </div>
-      <div class="transition-curtain bg-black"></div>
+      <div class="transition-curtain bg-dark-3"></div>
       <canvas id="js-webgl"></canvas>
     </div>
     <!-- VENDOR SCRIPTS -->
@@ -310,5 +284,5 @@
     <!-- - PAGE SCRIPTS-->
   </body>
 
-
+<!-- Mirrored from artemsemkin.com/cassio/html/projects-grid-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Mar 2022 23:53:35 GMT -->
 </html>
